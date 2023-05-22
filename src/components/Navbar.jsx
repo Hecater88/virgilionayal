@@ -13,15 +13,15 @@ const Navbar = () => {
 			<div className="w-full flex justify-between items-center max-w-7xl mx-auto">
 				<Link
 					to="/"
-					className="flex items-cente gap-2"
+					className="flex items-center gap-2"
 					onClick={() => {
 						setActive("");
 						window.scrollTo(0, 0);
 					}}>
-					<img src={logo} alt="logo" className=" h-12 object-contain" />
+					<img src={logo} alt="logo" className="h-12 object-contain" />
 					<p className="text-white text-[18px] font-bold cursor-pointer flex">
 						Virgilio Nayal &nbsp;
-						<span className="sm:block hidden">| Portfolio</span>
+						<span className="sm:block hidden"> | Portfolio</span>
 					</p>
 				</Link>
 				<ul className="list-none hidden sm:flex flex-row gap-10">
