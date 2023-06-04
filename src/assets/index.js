@@ -31,6 +31,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import iflastmile from "./company/iflastmile.png";
+import isabellatech from "./company/isabellatech.jfif";
+import pstalents from "./company/pstalents.png";
+import bambostudio from "./company/bambostudio.png";
+import inmodesign from "./company/inmodesign.jfif";
+
 export {
 	logo,
 	backend,
@@ -61,4 +67,9 @@ export {
 	jobit,
 	tripguide,
 	favicon,
+	iflastmile,
+	isabellatech,
+	pstalents,
+	bambostudio,
+	inmodesign,
 };

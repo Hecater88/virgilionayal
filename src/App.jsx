@@ -9,7 +9,9 @@ import {
 	Tech,
 	Works,
 	StarsCanvas,
+	EarthCanvas,
 } from "./components";
+import { motion } from "framer-motion";
 
 function App() {
 	return (
@@ -23,9 +25,12 @@ function App() {
 				<Experience />
 				<Tech />
 				<Works />
-				<Feedbacks />
+				{/* <Feedbacks /> */}
 				<div className="relative z-0">
 					<Contact />
+
+					<EarthCanvas />
+
 					<StarsCanvas />
 				</div>
 			</div>

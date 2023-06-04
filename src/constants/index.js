@@ -23,39 +23,40 @@ import {
 	jobit,
 	tripguide,
 	threejs,
+	iflastmile,
+	isabellatech,
+	pstalents,
+	bambostudio,
+	inmodesign,
 } from "../assets";
 
 export const navLinks = [
 	{
 		id: "about",
-		title: "About",
+		title: "Sobre mí",
 	},
 	{
 		id: "work",
-		title: "Work",
+		title: "Trabajos",
 	},
 	{
 		id: "contact",
-		title: "Contact",
+		title: "Contacto",
 	},
 ];
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "Frontend Developer",
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "React Developer",
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: "Unity Developer",
 		icon: backend,
-	},
-	{
-		title: "Content Creator",
-		icon: creator,
 	},
 ];
 
@@ -116,56 +117,58 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
-		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
+		title: "Mid Frontend Developer",
+		company_name: "if Lastmile, Madrid",
+		icon: iflastmile,
+		iconBg: "#FFFFFF",
+		date: "Mar 2022 - Abr 2023",
+		description:
+			"Mi función era la de desarrollar nuevas funcionalidades tanto de la aplicación interna y la aplicación para sus clientes. Desarrollo y mantenimiento continuo en un proyecto grande. Los mentores me ayudaron muchísimo a mejorar mis habilidades de frontend. También aprendí habilidades de fullstack.",
 	},
 	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
-		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
+		title: "Junior Frontend Developer",
+		company_name: "Isabella Tech, Marbella",
+		icon: isabellatech,
+		iconBg: "#000000",
+		date: "Jul 2019 - Jun 2021",
+		description:
+			"Durante estos estos dos años trabajé como programador Frontend desarrollando proyectos de todo tipo: aplicaciones web, páginas web de inmobiliarias, ecommerce, portafolios, blogs, páginas web de negocios.",
 	},
 	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
-		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
+		title: "Videogame programmer",
+		company_name: "Blackgate Studios, Málaga",
+		icon: pstalents,
+		iconBg: "#000000",
+		date: "Jul 2019 - Jun 2021",
+		description:
+			"Participé en Playstation Talents y monté un equipo de videojuegos indie, esta experiencia me mostró lo que implica crear un videojuego y me enseñó a ser autodidacta.",
 	},
 	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
-		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
+		title: "Videogame programmer",
+		company_name: "Bambo Studio, Málaga",
+		icon: bambostudio,
+		iconBg: "#FFFFFF",
+		date: "Abr 2019 - Jun 2019",
+		description:
+			"Aquí hice las prácticas del Máster, dónde me enseñaron a hacer juegos móviles.",
+	},
+	{
+		title: "Trainee Frontend Developer",
+		company_name: "Inmo.Design, Málaga",
+		icon: inmodesign,
+		iconBg: "#FFFFFF",
+		date: "Jun 2018 - Sept 2018",
+		description:
+			"Volvieron a contar conmigo para trabajar en verano, esta vez me asignaron proyectos más avanzados siempre de la mano de un mentor, aquí me di cuenta de que la rama Frontend me gustaba más que la Backend",
+	},
+	{
+		title: "Trainee Frontend Developer",
+		company_name: "Inmo.Design, Málaga",
+		icon: inmodesign,
+		iconBg: "#FFFFFF",
+		date: "Jun 2017 - Sept 2017",
+		description:
+			"Mi primer trabajo fue en Inmo.Design, una empresa pequeñita donde empecé a trabajar como programador principiante. La empresa se dedica a hacer páginas web exclusivamente a inmobiliarias. Primera toma de contacto con la programación de forma profesional, fue una experiencia bastante ilustrativa.",
 	},
 ];
 

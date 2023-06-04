@@ -29,8 +29,8 @@ const About = () => {
 	return (
 		<>
 			<motion.div variants={textVariant()}>
-				<p className={styles.sectionSubText}>Introduction</p>
-				<h2 className={styles.sectionHeadText}>Overview</h2>
+				<p className={styles.sectionSubText}>Introducción</p>
+				<h2 className={styles.sectionHeadText}>Resumen</h2>
 			</motion.div>
 
 			<motion.p
@@ -42,7 +42,7 @@ const About = () => {
 				ha permitido crear aplicaciones completas y escalables en el entorno del
 				servidor. A lo largo de mi trayectoria profesional, he adquirido una
 				valiosa experiencia en la ingeniería frontend y la programación de
-				videojuegos. He trabajado en empresas indies de videojuegos y startups,
+				videojuegos. He trabajado en startups y grupos indie de videojuegos,
 				donde he demostrado habilidades técnicas sólidas y creatividad en el
 				desarrollo de interfaces de usuario y experiencias de juego.
 			</motion.p>

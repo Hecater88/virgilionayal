@@ -59,8 +59,10 @@ const Works = () => {
 	return (
 		<>
 			<motion.div variants={textVariant()}>
-				<p className={`${styles.sectionSubText} text-center`}>My work</p>
-				<h2 className={`${styles.sectionHeadText} text-center`}>Projects.</h2>
+				<p className={`${styles.sectionSubText} text-center`}>Mi trabajo</p>
+				<h2 className={`${styles.sectionHeadText} text-center`}>
+					Proyectos profesiones y personales
+				</h2>
 			</motion.div>
 
 			<div className="w-full flex">
