@@ -28,6 +28,9 @@ import {
 	pstalents,
 	bambostudio,
 	inmodesign,
+	masproperty,
+	bombeosmarbella,
+	trainingnext,
 } from "../assets";
 
 export const navLinks = [
@@ -201,66 +204,60 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Mas Property",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Proyecto realizado con React y Frontity. La complejidad deriva del tamaño de la empresa y la gestión diaria de miles de propiedades, además de un sistema de gestión de usuarios con privilegios y funciones especiales.",
 		tags: [
 			{
 				name: "react",
-				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
-				color: "green-text-gradient",
+				name: "frontity",
 			},
 			{
 				name: "tailwind",
-				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: masproperty,
+		source_code_link: "https://www.maspropertymarbella.com/",
 	},
 	{
-		name: "Job IT",
+		name: "Bombeos Marbella",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"Diseño y desarrollo de una página web para una empresa de bombeos de hormigón en Marbella.",
 		tags: [
 			{
-				name: "react",
-				color: "blue-text-gradient",
+				name: "wordpress",
 			},
 			{
-				name: "restapi",
-				color: "green-text-gradient",
+				name: "php",
 			},
 			{
-				name: "scss",
-				color: "pink-text-gradient",
+				name: "css",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: bombeosmarbella,
+		source_code_link: "https://bombeosmarbella.com/",
 	},
 	{
 		name: "Trip Guide",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"Proyecto desarrollado con Next.js, es un proyecto para probar las nuevas funcionalidades que ofrece next.js, en el que simplifica el desarrollo de aplicaciones fullstack y tambien los optimiza.",
 		tags: [
 			{
 				name: "nextjs",
-				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
-				color: "green-text-gradient",
+				name: "reactjs",
 			},
 			{
-				name: "css",
-				color: "pink-text-gradient",
+				name: "tailwind",
+			},
+			{
+				name: "mongodb",
 			},
 		],
-		image: tripguide,
+		image: trainingnext,
 		source_code_link: "https://github.com/",
 	},
 ];

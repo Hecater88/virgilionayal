@@ -43,10 +43,10 @@
 	);
 }
 
-.green-pink-gradient {
-	background: "#00cea8";
-	background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-	background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+.green-brown-gradient {
+	background: "#9FD962";
+	background: linear-gradient(90.13deg, #9fd962 1.9%, #8c4b38 97.5%);
+	background: -webkit-linear-gradient(-90.13deg, #9fd962 1.9%, #8c4b38 97.5%);
 }
 
 .orange-text-gradient {
@@ -112,6 +112,15 @@
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.blue-gradient {
+	background: rgb(119, 140, 217);
+	background: linear-gradient(
+		180deg,
+		rgba(119, 140, 217, 1) 0%,
+		rgba(0, 212, 255, 0) 100%
+	);
 }
 
 /* canvas- styles */

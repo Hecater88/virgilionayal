@@ -37,6 +37,10 @@ import pstalents from "./company/pstalents.png";
 import bambostudio from "./company/bambostudio.png";
 import inmodesign from "./company/inmodesign.jfif";
 
+import masproperty from "./projects/masproperty.png";
+import bombeosmarbella from "./projects/bombeosmarbella.png";
+import trainingnext from "./projects/trainingnext.png";
+
 export {
 	logo,
 	backend,
@@ -72,4 +76,7 @@ export {
 	pstalents,
 	bambostudio,
 	inmodesign,
+	masproperty,
+	bombeosmarbella,
+	trainingnext,
 };

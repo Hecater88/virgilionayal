@@ -16,21 +16,23 @@ import { motion } from "framer-motion";
 function App() {
 	return (
 		<BrowserRouter>
-			<div className="relative z-0 bg-primary">
-				<div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-					<Navbar />
-					<Hero />
+			<div className="relative z-0">
+				<div className="bg-primary">
+					<div className="bg-hero-pattern bg-cover bg-no-repeat bg-right-bottom">
+						<Navbar />
+						<Hero />
+					</div>
+					<About />
+					<Experience />
+					<Tech />
+					{/* <Feedbacks /> */}
 				</div>
-				<About />
-				<Experience />
-				<Tech />
-				<Works />
-				{/* <Feedbacks /> */}
+				<div className="blue-gradient">
+					<Works />
+				</div>
 				<div className="relative z-0">
 					<Contact />
-
 					<EarthCanvas />
-
 					<StarsCanvas />
 				</div>
 			</div>

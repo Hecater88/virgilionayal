@@ -60,9 +60,9 @@ const Contact = () => {
 		<div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-1' overflow-hidden">
 			<motion.div
 				variants={slideIn("left", "tween", 0.2, 1)}
-				className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
+				className="flex-[0.5] bg-primary p-8 rounded-2xl">
 				<p className={styles.sectionSubText}>Ponte en contacto</p>
-				<h3 className={styles.sectionHeadText}>Contacto.</h3>
+				<h3 className={styles.sectionHeadText}>Contacto</h3>
 
 				<form
 					ref={formRef}
@@ -105,16 +105,16 @@ const Contact = () => {
 					<button
 						type="submit"
 						className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">
-						{loading ? "Sending..." : "Send"}
+						{loading ? "Enviando..." : "Enviar"}
 					</button>
 				</form>
 			</motion.div>
 
-			<motion.div
+			{/* <motion.div
 				variants={slideIn("right", "tween", 0.2, 1)}
 				className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
-				{/* 	<EarthCanvas /> */}
-			</motion.div>
+					<EarthCanvas />
+			</motion.div> */}
 		</div>
 	);
 };
