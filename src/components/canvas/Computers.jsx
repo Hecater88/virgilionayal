@@ -24,7 +24,7 @@ const Computers = ({ isMobile }) => {
 				rotation={[0, 90, 0]}
 				object={computer.scene}
 				scale={isMobile ? 2.5 : 3}
-				position={isMobile ? [2, -4.2, 0] : [-1, -5, 0]}
+				position={isMobile ? [2, -5, 0] : [-1, -5, 0]}
 			/>
 		</mesh>
 	);
@@ -41,6 +41,7 @@ const ComputerCanvas = () => {
 			gl={{ preservedDrawingBuffer: true }}>
 			<Suspense fallback={<CanvasLoader />}>
 				<OrbitControls
+					autoRotate
 					enableZoom={false}
 					maxPolarAngle={Math.PI / 2}
 					minPolarAngle={Math.PI / 2}
