@@ -10,7 +10,9 @@ const StackCard = ({ index, name, icon }) => {
 	return (
 		<Tilt>
 			<motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)}>
-				<div options={{ max: 45, scale: 1, speed: 450 }}>
+				<div
+					options={{ max: 45, scale: 1, speed: 450 }}
+					className="flex justify-center">
 					<img src={icon} alt={name} className="w-16 h-16 object-contain" />
 				</div>
 			</motion.div>

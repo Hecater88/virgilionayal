@@ -250,7 +250,7 @@ const projects = [
 		source_code_link: "https://bombeosmarbella.com/",
 	},
 	{
-		name: "Trip Guide",
+		name: "Tablón de anuncios",
 		description:
 			"Proyecto desarrollado con Next.js, es un proyecto para probar las nuevas funcionalidades que ofrece next.js, en el que simplifica el desarrollo de aplicaciones fullstack y tambien los optimiza.",
 		tags: [

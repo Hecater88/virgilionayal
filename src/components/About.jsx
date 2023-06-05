@@ -36,16 +36,15 @@ const About = () => {
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] leading-[30px]">
-				Soy programador Frontend y desarrollador de videojuegos con experiencia
-				en JavaScript y TypeScript, así como un amplio conocimiento en React.
-				También tengo experiencia con Node.js, lo que me ha permitido crear
-				aplicaciones completas y escalables en el entorno del servidor. A lo
-				largo de mi trayectoria profesional, he adquirido una valiosa
-				experiencia en la ingeniería frontend y la programación de videojuegos.
-				He trabajado en startups y grupos indie de videojuegos, donde he
-				demostrado habilidades técnicas sólidas y creatividad en el desarrollo
-				de interfaces de usuario en aplicaciones y experiencias en los
-				videojuegos.
+				Frontend developer y desarrollador de videojuegos con experiencia en
+				JavaScript y TypeScript, con amplío conocimiento en React. Tengo
+				experiencia con Node.js, lo que me ha permitido crear aplicaciones
+				completas y escalables en el entorno del servidor. A lo largo de mi
+				trayectoria profesional, he adquirido una valiosa experiencia en la
+				ingeniería frontend y la programación de videojuegos. He trabajado en
+				startups y grupos indie de videojuegos, donde he demostrado habilidades
+				técnicas sólidas y creatividad, en el desarrollo de interfaces de
+				usuario de aplicaciones y experiencias en los videojuegos.
 			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10 justify-center">
