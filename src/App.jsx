@@ -3,7 +3,6 @@ import {
 	About,
 	Contact,
 	Experience,
-	Feedbacks,
 	Hero,
 	Navbar,
 	Tech,
@@ -25,7 +24,6 @@ function App() {
 					<About />
 					<Experience />
 					<Tech />
-					{/* <Feedbacks /> */}
 				</div>
 				<div className="blue-gradient">
 					<Works />

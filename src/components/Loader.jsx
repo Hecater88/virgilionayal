@@ -11,6 +11,7 @@ const Loader = () => {
 				justifyContent: "center",
 				alignItems: "center",
 				flexDirection: "column",
+				backgroundColor: "#778CD9",
 			}}>
 			<span className="canvas-loader"></span>
 			<p

@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+import useIsMobile from "../../hooks/useIsMobile";
 
 const Computers = ({ isMobile }) => {
 	const computer = useGLTF("./desktop_pc/scene.gltf");
@@ -13,13 +14,14 @@ const Computers = ({ isMobile }) => {
 			<pointLight intensity={0.5} />
 			<spotLight
 				position={[-20, 50, 10]}
-				angle={0.12}
+				angle={0.3}
 				penumbra={1}
 				intensity={1}
 				castShadow
 				shadow-mapSize={1024}
 			/>
 			<primitive
+				rotation={[0, 90, 0]}
 				object={computer.scene}
 				scale={isMobile ? 2.5 : 3}
 				position={isMobile ? [-1, -4.5, 0] : [-1, -5, 0]}
@@ -29,9 +31,9 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputerCanvas = () => {
-	const [isMobile, setIsMobile] = useState(false);
-
-	useEffect(() => {
+	/* const [isMobile, setIsMobile] = useState(false); */
+	const isMobile = useIsMobile();
+	/* useEffect(() => {
 		//listener for changes to the screen size
 		const mediaQuery = window.matchMedia("(max-width:500px)");
 		//set the initial value
@@ -47,7 +49,7 @@ const ComputerCanvas = () => {
 		return () => {
 			mediaQuery.removeEventListener("change", handleMediaQueryChange);
 		};
-	}, []);
+	}, []); */
 
 	return (
 		<Canvas

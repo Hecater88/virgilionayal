@@ -1,7 +1,6 @@
 import {
 	mobile,
 	backend,
-	creator,
 	web,
 	javascript,
 	typescript,
@@ -13,15 +12,6 @@ import {
 	nodejs,
 	mongodb,
 	git,
-	figma,
-	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
 	threejs,
 	iflastmile,
 	isabellatech,
@@ -31,6 +21,11 @@ import {
 	masproperty,
 	bombeosmarbella,
 	trainingnext,
+	jest,
+	php,
+	wordpress,
+	csharp,
+	unity,
 } from "../assets";
 
 export const navLinks = [
@@ -105,16 +100,28 @@ const technologies = [
 		icon: threejs,
 	},
 	{
-		name: "git",
+		name: "Git",
 		icon: git,
 	},
 	{
-		name: "figma",
-		icon: figma,
+		name: "Jest",
+		icon: jest,
 	},
 	{
-		name: "docker",
-		icon: docker,
+		name: "PHP",
+		icon: php,
+	},
+	{
+		name: "Wordpress",
+		icon: wordpress,
+	},
+	{
+		name: "Unity",
+		icon: unity,
+	},
+	{
+		name: "C#",
+		icon: csharp,
 	},
 ];
 
@@ -126,7 +133,7 @@ const experiences = [
 		iconBg: "#FFFFFF",
 		date: "Mar 2022 - Abr 2023",
 		description:
-			"Mi función era la de desarrollar nuevas funcionalidades tanto de la aplicación interna y la aplicación para sus clientes. Desarrollo y mantenimiento continuo en un proyecto grande. Los mentores me ayudaron muchísimo a mejorar mis habilidades de frontend. También aprendí habilidades de fullstack.",
+			"Desarrollo continuo de nuevas funcionalidades y mantenimiento tanto de la aplicación interna y como la aplicación para clientes. Los mentores me ayudaron muchísimo en mejorar mis habilidades de frontend. También aprendí habilidades de fullstack.",
 	},
 	{
 		title: "Junior Frontend Developer",
@@ -135,7 +142,7 @@ const experiences = [
 		iconBg: "#000000",
 		date: "Jul 2019 - Jun 2021",
 		description:
-			"Durante estos estos dos años trabajé como programador Frontend desarrollando proyectos de todo tipo: aplicaciones web, páginas web de inmobiliarias, ecommerce, portafolios, blogs, páginas web de negocios.",
+			"Durante estos estos dos años desarrollé proyectos de todo tipo: aplicaciones web, páginas web de inmobiliarias, ecommerce, portafolios, blogs, páginas web de negocios.",
 	},
 	{
 		title: "Videogame programmer",
@@ -144,7 +151,7 @@ const experiences = [
 		iconBg: "#000000",
 		date: "Jul 2019 - Jun 2021",
 		description:
-			"Participé en Playstation Talents y monté un equipo de videojuegos indie, esta experiencia me mostró lo que implica crear un videojuego y me enseñó a ser autodidacta.",
+			"Participé en Playstation Talents y monté un equipo indie para crear un videojuego, esta experiencia me mostró lo que implica crear un videojuego y me enseñó a ser autodidacta.",
 	},
 	{
 		title: "Videogame programmer",
@@ -153,7 +160,7 @@ const experiences = [
 		iconBg: "#FFFFFF",
 		date: "Abr 2019 - Jun 2019",
 		description:
-			"Aquí hice las prácticas del Máster, dónde me enseñaron a hacer juegos móviles.",
+			"Aquí hice las prácticas del Máster dónde me enseñaron a hacer juegos móviles con Unity.",
 	},
 	{
 		title: "Trainee Frontend Developer",
@@ -209,7 +216,10 @@ const projects = [
 			"Proyecto realizado con React y Frontity. La complejidad deriva del tamaño de la empresa y la gestión diaria de miles de propiedades, además de un sistema de gestión de usuarios con privilegios y funciones especiales.",
 		tags: [
 			{
-				name: "react",
+				name: "reactjs",
+			},
+			{
+				name: "typescript",
 			},
 			{
 				name: "frontity",

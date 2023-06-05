@@ -30,7 +30,7 @@ const EarthCanvas = () => {
 		<div className="w-full h-auto absolute inset-0 z-[-1]">
 			<Canvas
 				shadows
-				frameLoop="demand"
+				frameloop="demand"
 				gl={{ preserveDrawingBuffer: true }}
 				camera={{ fov: 50, near: 0.1, far: 100, position: [15, 1, 1] }}>
 				<Suspense fallback={<CanvasLoader />}>
